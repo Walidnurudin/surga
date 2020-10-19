@@ -63,7 +63,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #1bb1dc;
+  background: #0b8457;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -261,7 +261,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #1bb1dc;
+  color: #5d5d5d;
   text-decoration: none;
 }
 
@@ -341,7 +341,8 @@ h6 {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: rgba(40, 38, 70, 0.8);
+  /* background: rgba(40, 38, 70, 0.8); */
+  background: #589167;
   transition: 0.4s;
 }
 
@@ -362,7 +363,8 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #8dc2fa;
+  color: #032d3c;
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -408,7 +410,7 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #065e77;
+  color: #215b63;
 }
 
 .mobile-nav-overly {
@@ -418,7 +420,8 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(40, 38, 70, 0.8);
+  background: #589167;
+  /* background: rgba(40, 38, 70, 0.8); */
   overflow: hidden;
   display: none;
 }
@@ -474,13 +477,13 @@ h6 {
 
 #hero .intro-info h2 {
   color: #007c28;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   font-size: 48px;
   font-weight: 700;
 }
 
 #hero .intro-info h2 span {
-  color: #1bb1dc;
+  color: #5d5d5d;
 }
 
 @media (max-width: 767px) {
@@ -520,9 +523,18 @@ section {
 
 /* Sections Header
 --------------------------------*/
-.section-header h3 {
+.section-header-title h1 {
   font-size: 36px;
   color: #007c28;
+  text-align: center;
+  font-weight: 900;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-header h3 {
+  font-size: 36px;
+  color: #5d5d5d;
   text-align: center;
   font-weight: 700;
   position: relative;
@@ -533,7 +545,7 @@ section {
   text-align: center;
   margin: auto;
   font-size: 15px;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
   color: #535074;
   width: 50%;
 }
@@ -567,10 +579,10 @@ section {
 }
 
 #about .about-content h3 {
-  color: #696592;
+  color: #808080;
   font-weight: 400;
   font-size: 22px;
-  font-style: italic;
+  /* font-style: italic; */
 }
 
 #about .about-content ul {
@@ -683,13 +695,13 @@ section {
   font-size: 14px;
   line-height: 28px;
   margin-bottom: 0;
-  text-align: left;
+  text-align: center;
 }
 
 /* Why Us Section
 --------------------------------*/
 #why-us {
-  padding: 60px 0;
+  padding: 30px 0;
 }
 
 @media (max-width: 991px) {
@@ -719,7 +731,7 @@ section {
 #why-us .why-us-content .features p {
   font-size: 16px;
   margin-left: 56px;
-  color: #555186;
+  /* color: #555186; */
 }
 
 #why-us .counters {
@@ -1439,7 +1451,7 @@ section {
 }
 
 #footer .footer-top {
-  padding: 60px 0 30px 0;
+  padding: 30px 0 30px 0;
   background: #f5f8fd;
 }
 
@@ -1470,7 +1482,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #1bb1dc;
+  background: #dee1ec;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1483,7 +1495,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0a98c0;
+  background: #0b8457;
   color: #fff;
 }
 
@@ -1525,7 +1537,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #1bb1dc;
+  color: #0b8457;
 }
 
 #footer .footer-top .footer-contact {
@@ -1668,7 +1680,7 @@ section {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #535074;
+  color: #808080;
   font-size: 15px;
 }
 

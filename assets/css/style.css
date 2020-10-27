@@ -580,25 +580,34 @@ section {
 
 .section-header h3 {
     font-size: 36px;
-    color: #5d5d5d;
-    text-align: center;
+    color: #007c28;
     font-weight: 700;
     position: relative;
+    text-align: center;
     font-family: "Montserrat", sans-serif;
 }
 
 .section-header p {
-    text-align: center;
     margin: auto;
     font-size: 15px;
     padding-bottom: 0px;
     color: #535074;
     width: 50%;
+    text-align: center;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .section-header p {
         width: 100%;
+        text-align: left;
+    }
+
+    .section-header h3 {
+        text-align: left;
+    }
+
+    .section-header-title h1 {
+        text-align: left;
     }
 }
 
@@ -755,7 +764,7 @@ section {
 --------------------------------*/
 
 #why-us {
-    padding: 80px 0 0 0;
+    padding: 80px 0 80px 0;
 }
 
 #download {
@@ -914,7 +923,7 @@ section {
 --------------------------------*/
 
 #features {
-    padding: 80px 0 0 0;
+    padding: 40px 0 40px 0;
 }
 
 #features h4 {
@@ -1799,7 +1808,7 @@ section {
 
 #footer .copyright {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 5px;
     color: #808080;
     font-size: 15px;
 }
